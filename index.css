@@ -1,0 +1,143 @@
+body{
+    background: #efefef;
+}
+a{
+    text-decoration: none;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+/*上面不要看*/
+.topNavBar {
+    padding:20px 0 20px 0;
+    position: fixed;
+    width: 100%;
+}
+.topNavBar .topNavBarWrap{
+    padding: 0 16px;
+}
+.topNavBar .logo {
+    font-family: "Hiragino Kaku Gothic Std";
+    font-size: 22px;
+    padding-top: 1px;
+}
+.topNavBar .logo .rs{
+    color: #e6686a;
+    margin-right: 4px;
+}
+.topNavBar .logo .card{
+    color: #9A9DA2;
+}
+
+.topNavBar nav {
+    font-size: 13px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.topNavBar nav a{
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-weight: bold;
+    padding:5px 0;
+}
+.topNavBar nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.topNavBar nav ul>li{
+    float: left;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+.topNavBar nav ul>li>a{
+    border-bottom: 3px solid transparent;
+}
+.topNavBar nav ul>li>a:hover{
+    border-bottom-color: #DC6465;
+}
+.banner{
+    height: 515px;
+    background-image: url(./images/bg.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+}
+main .user-card{
+    max-width: 940px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+main .user-card .pictureAndText{
+    padding:50px;
+}
+main .user-card .pictureAndText .picture{
+    float: left;
+    margin-right: 65px;
+}
+main .user-card .pictureAndText .text{
+    float: left;
+}
+main .user-card .welcome{
+    background: #e6686a;
+    color: white;
+    display: inline-block;
+    padding: 4px 16px;
+    line-height: 22px;
+    position: relative;
+    margin-bottom: 10px;
+}
+main .user-card .welcome .triangle{
+    display: block;
+    border: 10px solid transparent;
+    width: 0px;
+    border-left-color: #e6686a;
+    border-top-width: 0px;
+    position: absolute;
+    left: 4px;
+    top: 100%
+}
+.user-card h1{
+    margin-top: 18px;
+}
+.user-card hr{
+    margin: 20px 0;
+    height: 0;
+    border: none;
+    border-top: 1px solid #DEDEDE;
+}
+.user-card dt,dd{
+    float: left;
+    padding: 5px 0;
+}
+.user-card dt{
+    width: 30%;
+    font-weight: bold
+}
+.user-card dd{
+    width: 70%;
+    color: #9da0a7;
+}
+.user-card .media{
+    background: #E6686A;
+    text-align: center;
+}
+.user-card .media>a{
+    display: inline-block;
+    width: 40px;
+    line-height: 30px;
+    padding: 5px 0;
+    border-radius: 50%;
+    margin: 16px;
+}
+.user-card svg{
+    width: 30px;
+    height: 30px;
+    fill: #fff;
+    vertical-align: top;
+}
